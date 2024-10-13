@@ -1,4 +1,4 @@
-package com.fatey.liu.config;
+package com.fatey.liu.utils;
 
 /**
  * @author Liu Fatey
@@ -19,11 +19,11 @@ public enum BookState {
 	
 	private final int state;
 	
-	BookState(int state){
+	BookState(int state) {
 		this.state = state;
 	}
 	
-	public int getState(){
+	public int getState() {
 		return state;
 	}
 	
